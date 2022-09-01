@@ -8,7 +8,7 @@ module.exports = {
   dest: './dist',
   head: [
     // 添加图标
-    ['link', { rel: 'icon', href: '/favicon.ico' }]
+    ['link', { rel: 'icon', href: '/favicon.svg' }]
   ],
   // 使用插件
   plugins: [

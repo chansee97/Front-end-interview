@@ -9,7 +9,7 @@ hero:
   text: 知识体系&面试题库
   tagline: 前端知识体系&面试题库
   image:
-    src: /logo.png
+    src: /favicon.svg
     alt: Kitty
   actions:
     - theme: brand
