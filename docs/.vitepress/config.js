@@ -5,7 +5,7 @@ module.exports = {
   // 网站描述
   description: '助力前端面试的题库',
   // 打包目录
-  dest: './dist',
+  outDir: '../dist',
   head: [
     // 添加图标
     ['link', { rel: 'icon', href: '/favicon.svg' }]
