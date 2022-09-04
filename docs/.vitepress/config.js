@@ -1,9 +1,9 @@
 module.exports = {
   // 网站标题
-  title: '前端面试题库',
-  titleTemplate: '前端面试题',
+  title: '前端知识库',
+  titleTemplate: '前端知识库',
   // 网站描述
-  description: '助力前端面试的题库',
+  description: '积累知识，形成体系',
   // 打包目录
   outDir: '../dist',
   head: [
@@ -24,51 +24,106 @@ module.exports = {
     // 启动页面丝滑滚动
     smoothScroll: true,
     // 导航栏配置
-    nav: [{
-      text: 'html',
-      items: [
-        {
-          text: 'Changelog',
-          link: '/html/'
-        },
-        {
-          text: 'Contributing',
-          link: 'https://github.com/vuejs/vitepress/blob/main/.github/contributing.md'
-        }
-      ]
-    },
-    { text: 'html', link: '/html/' },
+    nav: [
+      { text: '基础知识', link: '/base/html/elementary' },
+      {
+        text: '开发配置',
+        items: [
+          {
+            text: '开发环境/工具',
+            link: '/devEnv/'
+          }
+        ]
+      },
+      {
+        text: '常用文档',
+        items: [
+          {
+            text: 'Vue3',
+            link: 'https://cn.vuejs.org/'
+          },
+          {
+            text: 'Vue2',
+            link: 'https://v2.cn.vuejs.org/'
+          }
+        ]
+      },
+
     ],
     socialLinks: [{ icon: "github", link: "https://github.com/iam-see" }],
     // 大纲头部说明
     outlineTitle: '本页内容',
     // 边栏配置
     sidebar: {
-      '/html/': [
+      '/base/': [
         {
           text: 'HTML',
           collapsible: true,
           items: [
-            { text: '基础', link: '/html/' },
-            { text: '进阶', link: '/html/advanced' },
-            { text: '高级', link: '/html/advanced' },
+            { text: '基础', link: '/base/html/elementary' },
+            { text: '中等', link: '/base/html/medium' },
+            { text: '进阶', link: '/base/html/advanced' },
           ],
         },
         {
-          text: 'HTML',
+          text: 'CSS',
+          collapsible: true,
           items: [
-            { text: '基础', link: '/html/' },
-            { text: '进阶', link: '/html/advanced' },
+            { text: '基础', link: '/base/css/elementary' },
+            { text: '中等', link: '/base/css/medium' },
+            { text: '进阶', link: '/base/css/advanced' },
           ],
         },
-      ]
+        {
+          text: 'JavaScript',
+          collapsible: true,
+          items: [
+            { text: '基础', link: '/base/javascript/' },
+          ],
+        },
+        {
+          text: '网络',
+          collapsible: true,
+          items: [
+            { text: '基础', link: '/base/net/' },
+          ],
+        },
+        {
+          text: '浏览器',
+          collapsible: true,
+          items: [
+            { text: '基础', link: '/base/browser/' },
+          ],
+        },
+      ],
+      '/devEnv/': [
+        {
+          text: '开发工具',
+          collapsible: true,
+          items: [
+            { text: 'VScode', link: '/devEnv/' },
+            { text: 'MySQL', link: '/devEnv/mySQL' },
+          ],
+        },
+        {
+          text: '开发环境',
+          collapsible: true,
+          items: [
+            { text: 'NodeJs', link: '/devEnv/nodejs' },
+            { text: 'Git', link: '/devEnv/git' },
+            { text: 'phpstudy', link: '/devEnv/phpstudy' },
+          ],
+        },
+        {
+          text: '便捷工具',
+          collapsible: true,
+          items: [
+            { text: 'typora', link: '/devEnv/typora' },
+            { text: 'PicGo', link: '/devEnv/PicGo' },
+          ],
+        },
+      ],
     },
-    // 编辑说明
-    editLink: {
-      pattern: 'https://github.com/vuejs/vitepress/edit/main/docs/:path',
-      text: '在GitHub上编辑此页面'
-    },
-    // 尾部说明
     footer: {
       message: 'Released under the MIT License.',
       copyright: 'Copyright © 2019-present Evan You'
