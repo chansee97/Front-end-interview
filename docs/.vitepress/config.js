@@ -120,6 +120,7 @@ module.exports = {
           items: [
             { text: 'typora', link: '/devEnv/typora' },
             { text: 'PicGo', link: '/devEnv/PicGo' },
+            { text: 'ApiFox', link: '/devEnv/apifox' },
           ],
         },
       ],
