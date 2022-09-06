@@ -3,3 +3,4 @@
 
 [ApiFox下载地址](https://www.apifox.cn/)
 
+![](https://cdn.apifox.cn/www/screenshot/dark-apifox-api-case-2.png)

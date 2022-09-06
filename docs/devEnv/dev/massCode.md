@@ -5,3 +5,5 @@
 massCode 允许您使用多级文件夹和标签来组织片段。每个片段都有片段 - 选项卡，这提供了更高级别的组织。
 
 [massCode下载地址](https://masscode.io/download/)
+
+![](https://masscode.io/preview.png)
