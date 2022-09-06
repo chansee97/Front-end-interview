@@ -1,4 +1,4 @@
-## PicGo
+# PicGo
 
 [PicGo下载地址](https://github.com/Molunerfinn/PicGo/releases)
 ## 应用概述

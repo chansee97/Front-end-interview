@@ -31,7 +31,7 @@ module.exports = {
         items: [
           {
             text: '开发环境/工具',
-            link: '/devEnv/'
+            link: '/devEnv/dev/vscode'
           }
         ]
       },
@@ -101,28 +101,23 @@ module.exports = {
           text: '开发工具',
           collapsible: true,
           items: [
-            { text: 'VScode', link: '/devEnv/' },
-            { text: 'MySQL', link: '/devEnv/mySQL' },
+            { text: 'VScode', link: '/devEnv/dev/vscode' },
+            { text: 'Git', link: '/devEnv/dev/git' },
+            { text: 'typora', link: '/devEnv/dev/typora' },
+            { text: 'PicGo', link: '/devEnv/dev/PicGo' },
+            { text: 'ApiFox', link: '/devEnv/dev/apifox' },
+            { text: 'massCode', link: '/devEnv/dev/massCode' },
           ],
         },
         {
           text: '开发环境',
           collapsible: true,
           items: [
-            { text: 'NodeJs', link: '/devEnv/nodejs' },
-            { text: 'Git', link: '/devEnv/git' },
-            { text: 'phpstudy', link: '/devEnv/phpstudy' },
+            { text: 'NodeJs', link: '/devEnv/env/nodejs' },
+            { text: 'MySQL', link: '/devEnv/env/mySQL' },
+            { text: 'phpstudy', link: '/devEnv/env/phpstudy' },
           ],
-        },
-        {
-          text: '便捷工具',
-          collapsible: true,
-          items: [
-            { text: 'typora', link: '/devEnv/typora' },
-            { text: 'PicGo', link: '/devEnv/PicGo' },
-            { text: 'ApiFox', link: '/devEnv/apifox' },
-          ],
-        },
+        }
       ],
     },
     footer: {
