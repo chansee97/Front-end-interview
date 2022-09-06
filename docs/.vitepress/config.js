@@ -107,6 +107,7 @@ module.exports = {
             { text: 'PicGo', link: '/devEnv/dev/PicGo' },
             { text: 'ApiFox', link: '/devEnv/dev/apifox' },
             { text: 'massCode', link: '/devEnv/dev/massCode' },
+            { text: 'Responsively', link: '/devEnv/dev/Responsively' },
           ],
         },
         {
