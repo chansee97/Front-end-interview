@@ -58,7 +58,6 @@ module.exports = {
       '/base/': [
         {
           text: 'HTML',
-          collapsible: true,
           items: [
             { text: '基础', link: '/base/html/elementary' },
             { text: '中等', link: '/base/html/medium' },
@@ -67,7 +66,6 @@ module.exports = {
         },
         {
           text: 'CSS',
-          collapsible: true,
           items: [
             { text: '基础', link: '/base/css/elementary' },
             { text: '中等', link: '/base/css/medium' },
@@ -76,23 +74,32 @@ module.exports = {
         },
         {
           text: 'JavaScript',
-          collapsible: true,
           items: [
             { text: '基础', link: '/base/javascript/' },
           ],
         },
         {
+          text: '框架',
+          items: [
+            { text: 'Vue', link: '/base/vue/' },
+          ],
+        },
+        {
           text: '网络',
-          collapsible: true,
           items: [
             { text: '基础', link: '/base/net/' },
           ],
         },
         {
           text: '浏览器',
-          collapsible: true,
           items: [
             { text: '基础', link: '/base/browser/' },
+          ],
+        },
+        {
+          text: '微信小程序',
+          items: [
+            { text: '基础', link: '/base/wx/' },
           ],
         },
       ],
