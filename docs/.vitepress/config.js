@@ -117,6 +117,7 @@ module.exports = {
             { text: 'NodeJs', link: '/devEnv/env/nodejs' },
             { text: 'MySQL', link: '/devEnv/env/mySQL' },
             { text: 'phpstudy', link: '/devEnv/env/phpstudy' },
+            { text: 'docker', link: '/devEnv/env/docker' },
           ],
         }
       ],
