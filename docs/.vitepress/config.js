@@ -115,6 +115,7 @@ module.exports = {
             { text: 'ApiFox', link: '/devEnv/dev/apifox' },
             { text: 'massCode', link: '/devEnv/dev/massCode' },
             { text: 'Responsively', link: '/devEnv/dev/Responsively' },
+            { text: '微信开发者工具', link: '/devEnv/dev/wxdevtool' },
           ],
         },
         {
