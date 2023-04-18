@@ -31,7 +31,7 @@ module.exports = {
         items: [
           {
             text: '开发环境/工具',
-            link: '/devEnv/dev/vscode'
+            link: '/devEnv/dev/git'
           }
         ]
       },
