@@ -7,7 +7,7 @@
 
 - 设置全局安装包的默认路径
 
-```base
+```
 // 创建文件夹
  mkdir D:\dev\nodejs\node_global
  // 配置prefix
@@ -17,27 +17,27 @@
 ```
 - 设置全局缓存的默认路径
 
-```base
+```
 // 创建文件夹
  mkdir D:\dev\nodejs\node_cache
  // 配置cache 
  npm config set cache  "D:\dev\nodejs\node_cache"
 ```
 - 设置淘宝源
-```base
+```
 npm config set registry https://registry.npmmirror.com
 ```
 
 简化版
 - 创建文件夹
-```base
+```
 mkdir D:\dev\nodejs\node_global
 mkdir D:\dev\nodejs\node_cache
 ```
 
 - 设置全局path变量
 
-```base
+```
  // 写入全局path变量
  setx PATH "%PATH%;D:\dev\nodejs\node_global"
 ```
@@ -91,6 +91,6 @@ global-dir=D:\dev\.pnpm-store\global
 state-dir=D:\dev\.pnpm-store\state
 ```
 初始化设置
-```base
+```
 pnpm setup
 ```
