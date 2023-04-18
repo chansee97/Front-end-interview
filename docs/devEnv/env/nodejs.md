@@ -1,7 +1,54 @@
 ## NodeJs
+> 不推荐原生安装，存在版本管理问题。直接安装nvm来安装node
 
 [Node环境下载](https://nodejs.org/zh-cn/)
 
+### node环境配置
+
+- 设置全局安装包的默认路径
+
+```base
+// 创建文件夹
+ mkdir D:\dev\nodejs\node_global
+ // 配置prefix
+ npm config set prefix "D:\dev\nodejs\node_global"
+ // 写入全局path变量
+ setx PATH "%PATH%;D:\dev\nodejs\node_global"
+```
+- 设置全局缓存的默认路径
+
+```base
+// 创建文件夹
+ mkdir D:\dev\nodejs\node_cache
+ // 配置cache 
+ npm config set cache  "D:\dev\nodejs\node_cache"
+```
+- 设置淘宝源
+```base
+npm config set registry https://registry.npmmirror.com
+```
+
+简化版
+- 创建文件夹
+```base
+mkdir D:\dev\nodejs\node_global
+mkdir D:\dev\nodejs\node_cache
+```
+
+- 设置全局path变量
+
+```base
+ // 写入全局path变量
+ setx PATH "%PATH%;D:\dev\nodejs\node_global"
+```
+
+- 修改`.npmrc`
+```
+registry=https://registry.npmmirror.com
+prefix=D:\dev\nodejs\node_global
+cache=D:\dev\nodejs\node_cache
+```
+## NVM
 [Node版本切换工具-nvm](https://github.com/coreybutler/nvm-windows/releases)
 在你安装的目录下找到settings.txt文件，打开后加上，不加上无法安装低版本node
 ```
@@ -29,4 +76,21 @@ nvm npm_mirror [url] 设置或者查看setting.txt中的npm_mirror,如果不设�
 nvm uninstall <version> 卸载制定的版本
 nvm use [version] [arch] 切换制定的node版本和位数
 nvm root [path] 设置和查看root路径
+```
+
+## PNPM 配置
+
+设置全局变量`%PNPM_HOME%`为`D:\dev\.pnpm-store`
+
+```
+// .npmrc
+cache-dir=D:\dev\.pnpm-store\cache
+g-dir=D:\dev\.pnpm-store
+global-bin-dir=D:\dev\.pnpm-store
+global-dir=D:\dev\.pnpm-store\global
+state-dir=D:\dev\.pnpm-store\state
+```
+初始化设置
+```base
+pnpm setup
 ```

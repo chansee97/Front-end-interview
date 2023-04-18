@@ -108,14 +108,9 @@ module.exports = {
           text: '开发工具',
           collapsible: true,
           items: [
-            { text: 'VScode', link: '/devEnv/dev/vscode' },
             { text: 'Git', link: '/devEnv/dev/git' },
             { text: 'typora', link: '/devEnv/dev/typora' },
             { text: 'PicGo', link: '/devEnv/dev/PicGo' },
-            { text: 'ApiFox', link: '/devEnv/dev/apifox' },
-            { text: 'massCode', link: '/devEnv/dev/massCode' },
-            { text: 'Responsively', link: '/devEnv/dev/Responsively' },
-            { text: '微信开发者工具', link: '/devEnv/dev/wxdevtool' },
           ],
         },
         {
